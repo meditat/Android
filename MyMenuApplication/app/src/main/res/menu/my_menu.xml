@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Colors"
+        android:title="Colors" >
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/red"
+                    android:title="Red"/>
+                <item
+                    android:id="@+id/green"
+                    android:title="green"/>
+                <item
+                    android:id="@+id/blue"
+                    android:title="blue"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/another"
+        android:title="Another" />
+    <item
+        android:id="@+id/nothing"
+        android:title="Nothing " />
+
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        android:id="@+id/search"
+        app:showAsAction="always"/>
+
+
+</menu>

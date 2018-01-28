@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Color Explorer</string>
+    <string name="list">List</string>
+    <string name="todo">TODO</string>
+</resources>

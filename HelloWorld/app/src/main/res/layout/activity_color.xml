@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/firstBottom"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/red"
+            android:text="Red"
+            android:onClick="changeColor"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/blue"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:onClick="changeColor"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/green"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:onClick="changeColor"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/firstBottom"
+        android:id="@+id/secondBottom"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/white"
+            android:onClick="changeColor"
+            android:text="white"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/black"
+            android:onClick="changeColor"
+            android:text="black"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/grey"
+            android:onClick="changeColor"
+            android:layout_height="wrap_content"
+            android:text="Grey"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/secondBottom"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pink"
+            android:onClick="changeColor"
+            android:layout_weight="1"
+            android:text="Pink"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="changeColor"
+            android:id="@+id/purple"
+            android:text="Purple"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/orange"
+            android:onClick="changeColor"
+
+            android:layout_height="wrap_content"
+            android:text="orange"
+            />
+    </LinearLayout>
+</RelativeLayout>

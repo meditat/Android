@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FacebookClone</string>
+    <string name="comment">  Comment</string>
+    <string name="share">  Share</string>
+    <string name="like">  Like</string>
+    <string name="there_is_some_post_will_be_displayed">There some post will be displayed</string>
+    <string name="time_here">Time Here</string>
+    <string name="title_here">Title Here</string>
+    <string name="profile_display">Profile Display</string>
+    <string name="who_liked">Who Liked</string>
+    <string name="hours_ago">Hours Ago</string>
+</resources>

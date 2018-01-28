@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/num1"
+       android:hint="First Number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/num2"
+        android:hint="Second Number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/output"
+        android:text="Output"
+        android:gravity="center_horizontal"
+        android:padding="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="+"
+            android:id="@+id/plus"
+            android:onClick="calculate"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/minus"
+            android:layout_height="wrap_content" android:text="-"
+            android:onClick="calculate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="*"
+            android:id="@+id/cross"
+            android:onClick="calculate"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="/"
+            android:id="@+id/divide"
+            android:onClick="calculate"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Battery Saver</string>
+    <string name="start_battery_saver">Start Battery Saver</string>
+    <string name="stop_battery_saver">Stop Battery Saver</string>
+</resources>

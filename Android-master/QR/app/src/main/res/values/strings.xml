@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QR</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="student_number">Student Number :</string>
+    <string name="yyy">YYY</string>
+    <string name="xxx">XXX</string>
+    <string name="student_id">Student Id :</string>
+</resources>

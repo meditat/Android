@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/login_cred"
+        android:title="Login credentials" />
+
+    <item
+        android:title="wifi status"
+        android:id="@+id/wifi_status"
+        android:icon="@drawable/wifi_off"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="Refresh"
+        android:id="@+id/refresh"/>
+
+    <item android:title="Saved Credentials"
+        android:id="@+id/savedCred"/>
+</menu>

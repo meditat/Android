@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Setttings" />
+
+    <item
+        android:id="@+id/onOff"
+        android:icon="@drawable/bt_off"
+        android:title="ON/OFF"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/ic_action_wifi_tethering"
+        android:title="San"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/discoverable"
+        android:checkable="true"
+        android:title="Discoverable" />
+
+    <item
+        android:id="@+id/fv"
+        android:icon="@drawable/bt_off"
+        android:title="ON/OFF" />
+
+    <item
+        android:id="@+id/fg"
+        android:icon="@drawable/bt_off"
+        android:title="ON/OFF" />
+
+</menu>

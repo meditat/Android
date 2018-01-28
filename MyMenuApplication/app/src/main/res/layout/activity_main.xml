@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiva.mymenuapplication.MainActivity">
+
+    <include
+        layout="@layout/toolbar_layout"
+        android:id="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/doSomething"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:onClick="doSomething"
+        style="@style/text" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:id="@+id/list_item"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>

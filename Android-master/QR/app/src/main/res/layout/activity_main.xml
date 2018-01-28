@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scan_qr_code"
+        android:padding="10dp"
+        android:layout_margin="8dp"
+        android:background="#ECEFF1"
+        android:id="@+id/buttonScan"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="20dp"
+           android:id="@+id/content"/>
+   </ScrollView>
+
+</LinearLayout>
+

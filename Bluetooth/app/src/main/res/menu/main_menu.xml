@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/discoverable"
+        android:checkable="true"
+        android:title="Discoverable" />
+    <item
+        android:id="@+id/btState"
+        android:icon="@drawable/bt_off"
+        android:title="btState"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/scan"
+        android:title="scan"
+        app:showAsAction="always" />
+</menu>
