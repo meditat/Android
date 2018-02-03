@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "544173412898",
+    "firebase_url": "https://cloudmsg-88e81.firebaseio.com",
+    "project_id": "cloudmsg-88e81",
+    "storage_bucket": "cloudmsg-88e81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544173412898:android:f7aef7869647f781",
+        "android_client_info": {
+          "package_name": "com.example.shiva.cloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544173412898-9gdm7v1vbjg6okpe73oq764otnvio6sl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiva.cloud",
+            "certificate_hash": "d3d6b3276baf1619e3389c7ea737e1bc4885594b"
+          }
+        },
+        {
+          "client_id": "544173412898-rjd091p75jg8hgr64iuar1ao11jtvnsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUBbYUwqwYYDKifgKMlGlIV7tJA1t5gZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544173412898-rjd091p75jg8hgr64iuar1ao11jtvnsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

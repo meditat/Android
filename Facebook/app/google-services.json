@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "993152398495",
+    "firebase_url": "https://facebook-ea5eb.firebaseio.com",
+    "project_id": "facebook-ea5eb",
+    "storage_bucket": "facebook-ea5eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993152398495:android:7a8da4f3705aad99",
+        "android_client_info": {
+          "package_name": "com.example.shiva.facebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993152398495-3fb0kc7nvu0s5nq2co0t7s0jd8t1ng7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiva.facebook",
+            "certificate_hash": "d3d6b3276baf1619e3389c7ea737e1bc4885594b"
+          }
+        },
+        {
+          "client_id": "993152398495-4rqj4nos5raoabtnqdof1kk7oife9o8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_OUVhx8r_Jk-lWyWYTUQNE-0SxEDsiik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993152398495-4rqj4nos5raoabtnqdof1kk7oife9o8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
