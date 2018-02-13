@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/done_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bgBottomBook"
+        android:elevation="4dp"
+        app:title="Sell your book"
+        android:gravity="center_vertical|end"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:padding="48dp"
+        android:layout_below="@id/done_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="136dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher_background"/>
+
+
+
+
+
+        </LinearLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

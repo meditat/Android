@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiva.testacitivity.MainActivity">
+
+    <ImageView
+        android:onClick="takePic"
+        android:src="@drawable/delete"
+        android:layout_width="wrap_content"
+        android:id="@+id/image"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Make Video"
+        android:onClick="makeVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Open Gallery"
+        android:onClick="openGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Open Contacts"
+        android:onClick="openContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Dial Number"
+        android:onClick="dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Open SMS"
+        android:onClick="openSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Open shareit"
+        android:onClick="share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Show Chooser"
+        android:onClick="showChooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

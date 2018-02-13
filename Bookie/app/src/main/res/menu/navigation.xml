@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+    <item
+        android:id="@+id/navigation_ebooks"
+        android:title="@string/e_books"
+        android:icon="@drawable/e_book_24dp"/>
+
+    <item
+        android:id="@+id/navigation_books"
+        android:title="@string/books"
+        android:icon="@drawable/ic_book_black_24dp"/>
+    <item
+        android:id="@+id/navigation_audio_books"
+        android:title="@string/audio_books"
+        android:icon="@drawable/ic_library_music_black_24dp"/>
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+
+</menu>

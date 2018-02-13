@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#fff</color>
+    <color name="bgBottomBook">#FF9100</color>
+    <color name="bgBottomProfile">#7B1FA2</color>
+    <color name="bgBottomEbook">#FF9800</color>
+    <color name="bgBottomCart">#0091EA</color>
+    <color name="bgBottomAudioBook">#D50000</color>
+    <color name="black">#000000</color>
+
+
+
+
+</resources>

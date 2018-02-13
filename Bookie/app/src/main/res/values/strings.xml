@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bookie</string>
+    <string name="books">Books</string>
+    <string name="e_books">E-books</string>
+    <string name="profile">Profile</string>
+    <string name="audio_books">Audio books</string>
+    <string name="cart">Cart</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="something">there is something that i can not tell you  the thing that the thine thing sthat thing  thing  i am here to solve the things something the thing that the things are no the obivipus</string>
+</resources>
